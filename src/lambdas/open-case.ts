@@ -1,4 +1,4 @@
-import { OpenCaseEvent, Case } from '../types';
+import { OpenCaseEvent, Case } from './types';
 
 export const handler = async (event: OpenCaseEvent): Promise<Case> => {
   // Create a support case using the input as the case ID, then return a confirmation message

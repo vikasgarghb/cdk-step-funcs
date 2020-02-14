@@ -1,4 +1,4 @@
-import { Case } from '../types';
+import { Case } from './types';
 
 export const handler = async (event: Case): Promise<Case> => {
   // Assign the support case and update the status message

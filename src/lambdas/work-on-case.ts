@@ -1,4 +1,4 @@
-import { Case } from '../types';
+import { Case } from './types';
 
 export const handler = async (event: Case): Promise<Case> => {
   // Generate a random number to determine whether the support case has been resolved, then return that value along with the updated message.
